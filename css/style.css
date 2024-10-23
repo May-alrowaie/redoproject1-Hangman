@@ -1,0 +1,41 @@
+body {
+  background-image: url("https://img.freepik.com/free-vector/flat-national-science-day-background_23-2149283127.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+#word {
+  font-size: 24px;
+  letter-spacing: 10px;
+}
+
+#message {
+  color: red;
+  font-weight: bold;
+}
+
+input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+/* //references 
+how to add background and change the properties
+:https://www.w3schools.com/cssref/pr_background-position.php
+https://cloudinary.com/guides/front-end-development/6-ways-to-stretch-a-background-image-with-css#:~:text=Another%20method%20to%20stretch%20a,the%20same%20as%20the%20container. 
+how to create input:*/

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Biology Hangman Game</title>
+
+    <script defer src="./js/app.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>Biology Hangman Game</h1>
+
+    <p id="wordDisplay">_ _ _ _</p>
+
+    <label for="guessInput">Enter a letter: </label>
+
+    <input type="text" id="guessInput" maxlength="1" />
+
+    <button id="guessButton">Guess</button>
+
+    <p>Remaining attempts: <span id="remainingAttempts">6</span></p>
+    <button id="restartButton">Restart Game</button>
+
+    <p id="gameMessage"></p>
+  </body>
+</html>
+
+<!-- //references: how to create input element 
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input -->
